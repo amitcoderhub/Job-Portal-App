@@ -9,8 +9,9 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-50 to-purple-50 flex flex-col items-center justify-center p-6">
+    <div style={{ backgroundImage: 'url(https://www.idr-inc.com/wp-content/uploads/2014/12/453643483.jpg)', backgroundSize: 'cover' }} className="min-h-screen bg-gradient-to-r from-blue-50 to-purple-50 flex flex-col items-center justify-center p-6">
       {/* Back Button */}
+      
       <button
         onClick={handleBack}
         className="absolute top-6 left-6 bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition duration-300 shadow-md"
